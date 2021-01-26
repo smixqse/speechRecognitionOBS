@@ -1,0 +1,17 @@
+html, body, #main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#text {
+  margin-bottom: 4rem;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -2.5px 2.5px 0px black;
+  -webkit-text-stroke: .5px black;
+  user-select: none;
+}

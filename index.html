@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <p>Abra este link no seu OBS:
+      <pre id="url"></pre>
+      <p>E então permita que esta página acesse seu microfone, e não feche.</p>
+      <p id="status">Aguardando conexão...</p>
+      <p>Texto atual:</p>
+      <pre id="text"></pre>
+      <div id="options">
+        <div><span>cor: </span><input type="color" name="color" class="inputs" /></div>
+        <div><span>tamanho: </span><input type="number" name="size" class="inputs" value="40" max="200" /></div>
+      </div>
+    </div>
+    <script src="https://chr15m.github.io/bugout/bugout.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
