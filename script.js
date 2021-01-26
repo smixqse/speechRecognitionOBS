@@ -4,7 +4,7 @@ const status = document.getElementById("status");
 const elementText = document.getElementById('text');
 const options = document.getElementById('options');
 
-document.getElementById("url").textContent = `${window.location.protocol}//${window.location.host}/receiver.html#${b.address()}`
+document.getElementById("url").textContent = `${window.location.href}receiver.html#${b.address()}`
 
 let receiverID;
 
