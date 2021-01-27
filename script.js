@@ -23,7 +23,8 @@ b.on("seen", function (address) {
   speechRecognition.onresult = function (event) {
 
     if (typeof (event.results) == 'undefined') {
-      speechRecognition.stop();
+      b.send(receiverID, {type: "speech", data: ""});
+      elementText.textContent = "";
       return;
     }
     for (var i = event.resultIndex; i < event.results.length; ++i) {
